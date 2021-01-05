@@ -1,0 +1,5 @@
+2020-12-24 13:38:09.372 [http-nio-8880-exec-7] ERROR zhwy.controller.UserInfoController-syntax error, pos 8, line 1, column 9[{河道名称:滹沱河,投放点:投放点1,经纬度:{115.325,56.32}},{河道名称:滹沱河,投放点:投放点3,经纬度:{115.325,56.32}}]
+2020-12-24 13:40:24.053 [http-nio-8880-exec-6] ERROR zhwy.controller.UserInfoController-1
+2020-12-24 13:51:34.113 [http-nio-8880-exec-10] ERROR zhwy.controller.UserInfoController-1
+2020-12-24 13:53:14.117 [http-nio-8880-exec-1] ERROR zhwy.controller.UserInfoController-1
+2020-12-24 13:54:06.310 [http-nio-8880-exec-3] ERROR zhwy.controller.UserInfoController-PreparedStatementCallback; SQL [ insert into boll_data_info (rivers_name,boll_name,lon,lat,boll_staus) VALUES(?,?,?,?,?)]; 违反了 PRIMARY KEY 约束 'PK__boll_dat__C15A5CC921B6055D'。不能在对象 'dbo.boll_data_info' 中插入重复键。; nested exception is java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束 'PK__boll_dat__C15A5CC921B6055D'。不能在对象 'dbo.boll_data_info' 中插入重复键。

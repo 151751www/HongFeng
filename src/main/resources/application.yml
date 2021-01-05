@@ -1,0 +1,22 @@
+spring:
+  #配置数据库连接
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://192.168.2.253\SQL2008R2;DatabaseName=洪峰跟随检测系统
+    username: sa
+    password: zhwykj@123
+  http:
+    multipart:
+      max-file-size: 1000Mb
+      max-request-size: 1000Mb
+
+server:
+  #接收参数时分配内存
+  max-http-header-size: 204800
+  port: 8880
+
+logging:
+  config: classpath:logback-spring.xml
+
+
+
